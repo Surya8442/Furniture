@@ -18,7 +18,7 @@ spec:
         - name: furncont
           image: surya8442/furniture:latest
           ports:
-            - containerPort: 1338
+            - containerPort: 8080
 
 ---
 apiVersion: v1
@@ -31,5 +31,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 1338
+      targetPort: 8080
   type: LoadBalancer
