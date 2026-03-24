@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: furnature
   labels:
-    app: autoapp
+    app: furn
 spec:
   replicas: 3
   selector:
